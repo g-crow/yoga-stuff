@@ -23,7 +23,7 @@ const AboutPage = () => {
         in Missoula, Montana. I’m also a software engineer, writer, doodler,
         bullet journaler, and advocate for food system reform. I’ve been
         practicing yoga for a little over a decade. My practice has been
-        informed by many teachers (links to come), cirus arts. the eightfold
+        informed by many teachers (links to come), circus arts. the eightfold
         path described in Patañjali's <i>Yoga Sūtras</i>, the Ashtanga method of
         K. Pattabhi Jois, a growing personal understanding of and resistance to
         the “attention economy,” and the fox character in{" "}
