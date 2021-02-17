@@ -31,7 +31,7 @@ const AboutPage = () => {
       </div>
       <div className={styles.content}>
         The fox represents playfulness, patience, and the centrality of
-        interpersonal connection. My own yoga practice is rooted in those same
+        interpersonal connection. My yoga practice is rooted in those same
         qualities. Yoga is so much about playing with our own bodies in space,
         curiosity, sensuousness, silliness, discovery. Yoga is also about
         persistence, consistency, and staying stable through discomfort. The
