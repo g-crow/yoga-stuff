@@ -1,17 +1,16 @@
 import Head from "next/head";
 import Navigation from "../components/Navigation/Navigation";
-import AboutPage from "../components/AboutPage/AboutPage";
+import SchedulePage from "../components/SchedulePage/SchedulePage";
 
-export default function Home() {
+export default function Schedule() {
   return (
     <>
       <Head>
-        <title>Yoga with Genevieve</title>
+        <title>Yoga with Genevieve - Schedule</title>
         <link rel="icon" href="/fox_blue.ico" />
       </Head>
       <Navigation />
-
-      <AboutPage />
+      <SchedulePage />
     </>
   );
 }

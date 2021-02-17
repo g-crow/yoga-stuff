@@ -1,0 +1,49 @@
+.navContainer {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(22, 28, 33);
+  color: #f0f6fc;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.siteTitle {
+  display: flex;
+  padding: 12px 0px 12px 20px;
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 1.75rem;
+  white-space: nowrap;
+  padding-left: 20px;
+}
+
+.links {
+  font-size: 1.25rem;
+  padding-right: 20px;
+  white-space: nowrap;
+  margin-top: 16px;
+}
+
+.link:hover {
+  color: #58a6ff;
+  cursor: pointer;
+}
+
+.code {
+  font-family: "Courier New", monospace;
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    display: none;
+  }
+}
