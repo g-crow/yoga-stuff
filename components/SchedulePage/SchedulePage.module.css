@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
   max-width: 600px;
-  padding: 60px 0;
+  padding: 70px 0;
 }
 
 .title {
@@ -35,7 +35,7 @@
 
 .eventDescription {
   font-size: 1rem;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
   font-style: italic;
 }
 
