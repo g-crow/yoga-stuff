@@ -45,7 +45,7 @@ const SchedulePage = () => {
           class is designed to build stability and muscle tone with this
           understanding: “Strength is not rigid. Strength is knowing your center
           and wrapping yourself around it.”
-          <div className={styles.eventPrice}> Free for Missoula residents.</div>
+          <div className={styles.eventPrice}> Free for Missoula residents. Thanks for helping me learn how to teach.</div>
         </p>
         <p className={styles.eventLocation}>
           Inquire for location to{" "}
