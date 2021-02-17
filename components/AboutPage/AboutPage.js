@@ -1,5 +1,5 @@
 import styles from "./AboutPage.module.css";
-import Image from "next/Image";
+import Image from 'next/image'
 import profilePic from "../../public/profile_crop.jpg";
 
 const AboutPage = () => {

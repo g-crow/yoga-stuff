@@ -1,7 +1,7 @@
 import styles from "./Navigation.module.css";
 // import foxBlue from "../../public/fox_blue.svg";
 import Link from "next/link";
-import Image from "next/Image";
+import Image from 'next/image'
 
 const Navigation = () => {
   return (
