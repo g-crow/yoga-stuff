@@ -49,4 +49,7 @@
   .navContainer {
       padding: 0rem;
   }
+  .links {
+      margin-top: 10px;
+  }
 }
