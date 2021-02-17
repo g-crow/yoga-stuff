@@ -56,8 +56,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .container {
-      max-width: 90%;
-    }
+  .container {
+    max-width: 85%;
   }
-  
+}
