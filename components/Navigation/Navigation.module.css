@@ -46,4 +46,7 @@
   .title {
     display: none;
   }
+  .navContainer {
+      padding: 0rem;
+  }
 }
