@@ -13,7 +13,7 @@ const SchedulePage = () => {
         </p>
         <p className={styles.eventDescription}>
           Inspired by Kendra Potter of{" "}
-          <a href="https://sistermoonwellness.com/" rel="noopener">
+          <a href="https://sistermoonwellness.com/" target="_blank">
             <span className={styles.link}>Sistermoon Wellness</span>
           </a>{" "}
           (her wonderful class of the same name is on Wednesday evenings). This

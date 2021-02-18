@@ -17,7 +17,7 @@ const AboutPage = () => {
       <div className={styles.content}>
         I’m an enthusiastic yoga student currently working on my RYT 200-hr
         teacher certification through{" "}
-        <a href="https://sistermoonwellness.com/" rel="noopener">
+        <a href="https://sistermoonwellness.com/" target="_blank">
           <span className={styles.link}>Sistermoon Wellness</span>
         </a>{" "}
         in Missoula, Montana. I’m also a software engineer, writer, doodler,
