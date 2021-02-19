@@ -29,10 +29,10 @@ const SchedulePage = () => {
             Research Foundation.
           </div>
         </p>
+        <p className={styles.eventLocation}>
+          Online event, register for details
+        </p>
         <div className={styles.right}>
-          <p className={styles.eventLocation}>
-            Online event, Vimeo livestream link TBD
-          </p>
           <Button
             variant="outlined"
             color="primary"
@@ -66,13 +66,10 @@ const SchedulePage = () => {
             teach.
           </div>
         </p>
+        <p className={styles.eventLocation}>
+          Capacity limited, register for details
+        </p>
         <div className={styles.right}>
-          <p className={styles.eventLocation}>
-            Inquire for location to{" "}
-            <a href="mailto: genevieve@hey.com.">
-              <span className={styles.link}>genevieve@hey.com</span>
-            </a>
-          </p>
           <Button
             variant="outlined"
             color="primary"
