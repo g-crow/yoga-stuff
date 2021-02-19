@@ -14,7 +14,7 @@
 .event {
   font-size: 1rem;
   line-height: 1.25rem;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .eventDay {
@@ -25,12 +25,6 @@
 .eventTitle {
   font-weight: bold;
   font-size: 1rem;
-}
-
-.eventLocation {
-  text-align: right;
-  font-weight: bold;
-  font-size: 0.75rem;
 }
 
 .eventDescription {
@@ -45,6 +39,16 @@
   font-style: normal;
   color: #db61a2;
   margin-top: 7px;
+}
+
+.eventLocation {
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding-bottom: 8px;
+}
+
+.right {
+  text-align: right;
 }
 
 .divider {
