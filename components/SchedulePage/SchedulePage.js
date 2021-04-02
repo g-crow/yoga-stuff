@@ -21,7 +21,7 @@ const SchedulePage = () => {
       <div className={styles.event}>
         <h2 className={styles.eventDay}>Sunday, April 18th</h2>
         <p className={styles.eventTitle}>
-          ✅ 11AM-12PM MST<span className={styles.divider}>/</span>
+          ✅ 11AM-12PM MDT<span className={styles.divider}>/</span>
           Zoom Yoga for Deciding to Fail Better
         </p>
         <p className={styles.eventDescription}>
