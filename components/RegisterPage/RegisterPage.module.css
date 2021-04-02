@@ -1,0 +1,24 @@
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 70px 0;
+  }
+  
+  .title {
+    color: #58a6ff;
+    font-size: 2.25rem;
+    font-family: "Courier New", monospace;
+    padding-bottom: 20px;
+  }
+
+  .eventTitle {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .container {
+      max-width: 85%;
+    }
+  }
+  
