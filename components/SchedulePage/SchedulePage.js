@@ -41,23 +41,25 @@ const SchedulePage = () => {
           are welcome.
           <div className={styles.eventPrice}>Free</div>
         </p>
-        <a
-          href="https://www.meetup.com/Deciding-To-Fail-Better/events/277314032/"
-          target="_blank"
-        >
-          <Button
-            variant="outlined"
-            color="primary"
-            style={{
-              color: "#f0f6fc",
-              backgroundColor: "#383838",
-              borderRadius: "20px",
-              textTransform: "capitalize",
-            }}
+        <div className={styles.right}>
+          <a
+            href="https://www.meetup.com/Deciding-To-Fail-Better/events/277314032/"
+            target="_blank"
           >
-            Register Here
-          </Button>
-        </a>
+            <Button
+              variant="outlined"
+              color="primary"
+              style={{
+                color: "#f0f6fc",
+                backgroundColor: "#383838",
+                borderRadius: "20px",
+                textTransform: "capitalize",
+              }}
+            >
+              Register Here
+            </Button>
+          </a>
+        </div>
       </div>
 
       {/* <div className={styles.event}>
