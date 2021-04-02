@@ -1,12 +1,66 @@
+import React, { useState } from "react";
 import styles from "./SchedulePage.module.css";
 import { Button } from "@material-ui/core";
+import Link from "next/link";
 
 const SchedulePage = () => {
+  const [registerMonday, setRegisterMonday] = useState(false);
+  const [registerSunday, setRegisterSunday] = useState(false);
+  const handleClickMonday = () => {
+    console.log("clicked Monday");
+  };
+
+  const handleClickSunday = () => {
+    console.log("clicked Sunday");
+  };
+
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Live Classes 🧘🏾‍♀️</h1>
+      <h1 className={styles.title}>Upcoming Events 🗓️</h1>
 
       <div className={styles.event}>
+        <h2 className={styles.eventDay}>Sunday, April 18th</h2>
+        <p className={styles.eventTitle}>
+          ✅ 11AM-12PM MST<span className={styles.divider}>/</span>
+          Zoom Yoga for Deciding to Fail Better
+        </p>
+        <p className={styles.eventDescription}>
+          <a
+            href="https://www.meetup.com/Deciding-To-Fail-Better/"
+            target="_blank"
+          >
+            <span style={{ color: "#58a6ff", cursor: "pointer" }}>
+              Deciding to Fail Better
+            </span>
+          </a>{" "}
+          is Missoula's warm and welcoming community self-exploration group.
+          This online class will be geared toward the wellness interests
+          expressed by its participants. The class will emphasize mindful
+          breathing, full-body awareness, and postures to develop strength,
+          mobility, and balance. All levels of ability and experience with yoga
+          are welcome.
+          <div className={styles.eventPrice}>Free</div>
+        </p>
+        <a
+          href="https://www.meetup.com/Deciding-To-Fail-Better/events/277314032/"
+          target="_blank"
+        >
+          <Button
+            variant="outlined"
+            color="primary"
+            style={{
+              color: "#f0f6fc",
+              backgroundColor: "#383838",
+              borderRadius: "20px",
+              textTransform: "capitalize",
+            }}
+          >
+            Register Here
+          </Button>
+        </a>
+      </div>
+
+      {/* <div className={styles.event}>
         <h2 className={styles.eventDay}>Monday</h2>
         <p className={styles.eventTitle}>
           🧠 7-7:45PM MST<span className={styles.divider}>/</span>Yoga for
@@ -33,21 +87,24 @@ const SchedulePage = () => {
           Online event, register for details
         </p>
         <div className={styles.right}>
-          <Button
-            variant="outlined"
-            color="primary"
-            style={{
-              color: "#f0f6fc",
-              backgroundColor: "#383838",
-              borderRadius: "20px",
-            }}
-          >
-            Register here
-          </Button>
+          <Link href="/register">
+            <Button
+              variant="outlined"
+              color="primary"
+              onClick={handleClickMonday}
+              style={{
+                color: "#f0f6fc",
+                backgroundColor: "#383838",
+                borderRadius: "20px",
+              }}
+            >
+              Register here
+            </Button>
+          </Link>
         </div>
-      </div>
+      </div> */}
 
-      <div className={styles.event}>
+      {/* <div className={styles.event}>
         <h2 className={styles.eventDay}>Sunday</h2>
         <p className={styles.eventTitle}>
           🌵 10-11AM MST<span className={styles.divider}>/</span>Yoga for
@@ -70,19 +127,22 @@ const SchedulePage = () => {
           Capacity limited, register for details
         </p>
         <div className={styles.right}>
-          <Button
-            variant="outlined"
-            color="primary"
-            style={{
-              color: "#f0f6fc",
-              backgroundColor: "#383838",
-              borderRadius: "20px",
-            }}
-          >
-            Register here
-          </Button>
+          <Link href="/register">
+            <Button
+              variant="outlined"
+              color="primary"
+              onClick={handleClickSunday}
+              style={{
+                color: "#f0f6fc",
+                backgroundColor: "#383838",
+                borderRadius: "20px",
+              }}
+            >
+              Register here
+            </Button>
+          </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

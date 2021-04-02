@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Navigation from "../components/Navigation/Navigation";
-import SchedulePage from "../components/SchedulePage/SchedulePage";
+import RegisterPage from "../components/RegisterPage/RegisterPage";
 
 export default function Schedule() {
   return (
@@ -10,7 +10,7 @@ export default function Schedule() {
         <link rel="icon" href="/fox_blue.ico" />
       </Head>
       <Navigation />
-      <SchedulePage />
+      <RegisterPage />
     </>
   );
 }
