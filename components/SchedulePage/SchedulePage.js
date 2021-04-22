@@ -10,16 +10,12 @@ const SchedulePage = () => {
     console.log("clicked Monday");
   };
 
-  const handleClickSunday = () => {
-    console.log("clicked Sunday");
-  };
-
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Upcoming Events 🗓️</h1>
 
       <div className={styles.event}>
-        <h2 className={styles.eventDay}>Sunday, April 18th</h2>
+        <h2 className={styles.eventDay}>Sunday, May 16th</h2>
         <p className={styles.eventTitle}>
           ✅ 11AM-12PM MDT<span className={styles.divider}>/</span>
           Zoom Yoga for Deciding to Fail Better
@@ -34,7 +30,7 @@ const SchedulePage = () => {
             </span>
           </a>{" "}
           is Missoula's warm and welcoming community self-exploration group.
-          This online class will be geared toward the wellness interests
+          This online class will be geared toward wellness interests
           expressed by its participants. The class will emphasize mindful
           breathing, full-body awareness, and postures to develop strength,
           mobility, and balance. All levels of ability and experience with yoga
@@ -43,7 +39,7 @@ const SchedulePage = () => {
         </p>
         <div className={styles.right}>
           <a
-            href="https://www.meetup.com/Deciding-To-Fail-Better/events/277314032/"
+            href="https://www.meetup.com/Deciding-To-Fail-Better/events/277720426/"
             target="_blank"
           >
             <Button
