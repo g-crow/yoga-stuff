@@ -14,7 +14,7 @@ const SchedulePage = () => {
       <h1 className={styles.title}>Events 🗓️</h1>
 
       <div className={styles.event}>
-        <h2 className={styles.eventDay}>Mondays (beginning August 1, 2021)</h2>
+        <h2 className={styles.eventDay}>Fridays (beginning August 1, 2021)</h2>
         <p className={styles.eventTitle}>
           🧗‍♂️ 8-9AM MST<span className={styles.divider}>/</span>Yoga for Fear of
           Falling
