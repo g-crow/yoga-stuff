@@ -57,7 +57,7 @@ const SchedulePage = () => {
             </Button>
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
