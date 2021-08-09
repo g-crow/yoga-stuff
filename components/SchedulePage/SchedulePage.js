@@ -10,7 +10,7 @@ const SchedulePage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Events 🗓️</h1>
+      <h1 className={styles.title}>Classes 🗓️</h1>
 
       <div className={styles.event}>
         <h2 className={styles.eventDay}>Friday</h2>
