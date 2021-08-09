@@ -38,7 +38,7 @@ const SchedulePage = () => {
             Free for Freestone Climbing members. Drop-in rates available.
           </div>
         </p>
-        <div className={styles.right}>
+        <div>
           <Link href="https://freestoneclimbing.com/calendar/">
             <Button
               variant="outlined"
