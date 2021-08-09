@@ -26,7 +26,7 @@ const AboutPage = () => {
         I’m also a software engineer, writer, doodler, bullet journaler, and
         advocate for food system reform. I’ve been practicing yoga for a little
         over a decade. My practice has been informed by many teachers of various
-        fields, circus arts, the eightfold path described in Patañjali's{" "}
+        trades, circus arts, the eightfold path described in Patañjali's{" "}
         <i>Yoga Sūtras</i>, the Ashtanga method of K. Pattabhi Jois, and a
         growing personal understanding of and resistance to the “attention
         economy.”
@@ -38,13 +38,7 @@ const AboutPage = () => {
         interpersonal connection. In <i>The Little Prince</i>, the fox is an
         advocate for the sort of relationship that blossoms slowly, through
         honed attention and consistent effort. My yoga practice is rooted in
-        these same qualities. Yoga is so much about playing with our own bodies
-        in space, curiosity, sensuousness, silliness, discovery. Yoga is also
-        about persistence, consistency, and staying stable through discomfort.
-        The interoception yoga hones—awareness of the body from inside of it—is
-        vital not only as it helps us relate to ourselves and our physical
-        bodies, but as it helps us relate to the outside world. Self-compassion
-        and compassion for others cannot be separated. We practice on our mats
+        these same qualities. We practice on our mats
         in large part to step off of them gracefully, and with the ability to be
         of service.
       </div>
