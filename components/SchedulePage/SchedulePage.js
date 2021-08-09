@@ -4,10 +4,7 @@ import { Button } from "@material-ui/core";
 import Link from "next/link";
 
 const SchedulePage = () => {
-  const handleClick = () => {
-    console.log("clicked");
-  };
-
+  
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Classes 🗓️</h1>
@@ -39,7 +36,7 @@ const SchedulePage = () => {
           </div>
         </p>
         <div>
-          <Link href="https://freestoneclimbing.com/calendar/">
+          <a href="https://freestoneclimbing.com/calendar/" target="_blank">
             <Button
               variant="outlined"
               color="primary"
@@ -52,7 +49,7 @@ const SchedulePage = () => {
             >
               Register here
             </Button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
