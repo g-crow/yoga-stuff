@@ -17,8 +17,8 @@ const AboutPage = () => {
       <div className={styles.main}>
         <h1 className={styles.title}> Hey, I’m Genevieve 👋</h1>
         <div className={styles.content}>
-          I'm a yoga instructor based in Missoula, Montana. I completed a 200-hr
-          training with
+          I'm a yoga instructor based in Missoula, Montana. I’ve been practicing
+          yoga for a little over a decade. I completed a 200-hr training with
           <a href="https://sistermoonwellness.com/" target="_blank">
             <span className={styles.link}> Sistermoon Wellness</span>
           </a>{" "}
@@ -27,10 +27,9 @@ const AboutPage = () => {
 
         <div className={styles.content}>
           I’m also a software engineer, writer, doodler, bullet journaler, and
-          advocate for food system reform. I’ve been practicing yoga for a
-          little over a decade. My practice has been informed by many teachers
-          of various trades, circus arts, the eightfold path described in
-          Patañjali's <i>Yoga Sūtras</i>, the Ashtanga method of K. Pattabhi
+          advocate for food system reform. My practice has been informed by many
+          teachers of various trades, circus arts, the eightfold path described
+          in Patañjali's <i>Yoga Sūtras</i>, the Ashtanga method of K. Pattabhi
           Jois, and a growing personal understanding of and resistance to the
           “attention economy.”
         </div>
@@ -52,7 +51,12 @@ const AboutPage = () => {
           💫
         </div>
       </div>
-      <Image src={headstand} className={styles.imgSecondary} height={983} width={1404} />
+      <Image
+        src={headstand}
+        className={styles.imgSecondary}
+        height={983}
+        width={1404}
+      />
     </div>
   );
 };
