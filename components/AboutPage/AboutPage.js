@@ -22,16 +22,12 @@ const AboutPage = () => {
           <a href="https://sistermoonwellness.com/" target="_blank">
             <span className={styles.link}> Sistermoon Wellness</span>
           </a>{" "}
-          in 2021.
-        </div>
-
-        <div className={styles.content}>
-          I’m also a software engineer, writer, doodler, bullet journaler, and
-          advocate for food system reform. My practice has been informed by many
-          teachers of various trades, circus arts, the eightfold path described
-          in Patañjali's <i>Yoga Sūtras</i>, the Ashtanga method of K. Pattabhi
-          Jois, and a growing personal understanding of and resistance to the
-          “attention economy.”
+          in 2021. I’m also a software engineer, writer, doodler, bullet
+          journaler, and advocate for food system reform. My practice has been
+          informed by many teachers of various trades, circus arts, the
+          eightfold path described in Patañjali's <i>Yoga Sūtras</i>, the
+          Ashtanga method of K. Pattabhi Jois, and a growing personal
+          understanding of and resistance to the “attention economy.”
         </div>
 
         <div className={styles.content}>

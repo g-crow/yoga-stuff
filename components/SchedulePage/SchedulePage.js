@@ -12,8 +12,7 @@ const SchedulePage = () => {
       <div className={styles.event}>
         <h2 className={styles.eventDay}>Friday</h2>
         <p className={styles.eventTitle}>
-          🧗‍♂️ 7:30-8:30AM<span className={styles.divider}>/</span>Yoga for
-          Climbers
+          🧗‍♂️ 7:30-8:30AM<span className={styles.divider}>/</span>Vinyasa + Hatha Flow
         </p>
         <p className={styles.eventTitle}>
           Location: Freestone Climbing Center, 1200 Shakespeare St, Missoula, MT
@@ -23,13 +22,9 @@ const SchedulePage = () => {
           “Strength is not rigid. Strength is knowing your center and wrapping
           yourself around it.” <br />
           <br />
-          This ashtanga-inspired flow will focus on the five potential movements
-          of the spine (flexion, extension, rotation, lateral & axial
-          extension), plus balance and core strength! We'll incorporate
+          This ashtanga-inspired flow will focus on full-body mobility with special attention paid to the spine, plus balance and core strength. We'll incorporate
           traditional yoga asanas with drills specifically geared toward
-          climbers (hello, shoulders and hip flexors!). Ultimately, the focus
-          will be on full-body awareness, mobility, and balancing strength with
-          mental fortitude.
+          climbers (hello, shoulders and hip flexors!).
           <div className={styles.eventPrice}>
             {" "}
             Free for Freestone Climbing members. Drop-in rates available.
