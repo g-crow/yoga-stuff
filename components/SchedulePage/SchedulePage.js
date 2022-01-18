@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./SchedulePage.module.css";
 import { Button } from "@material-ui/core";
-import Link from "next/link";
 
 const SchedulePage = () => {
   
@@ -35,7 +34,6 @@ const SchedulePage = () => {
             <Button
               variant="outlined"
               color="primary"
-              onClick={handleClick()}
               style={{
                 color: "#f0f6fc",
                 backgroundColor: "#383838",
