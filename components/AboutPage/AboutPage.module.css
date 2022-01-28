@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
-  max-width: 600px;
-  padding: 70px 0;
+  max-width: 800px;
+  padding: 70px 30px;
 }
 
 .main {
@@ -35,10 +35,4 @@
 
 .imgSecondary {
   border-radius: 1%;
-}
-
-@media screen and (max-width: 500px) {
-  .container {
-    max-width: 90%;
-  }
 }

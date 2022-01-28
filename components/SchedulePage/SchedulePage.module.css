@@ -1,7 +1,7 @@
 .container {
   margin: 0 auto;
-  max-width: 600px;
-  padding: 70px 0;
+  max-width: 800px;
+  padding: 70px 30px;
 }
 
 .title {
@@ -14,7 +14,7 @@
 .event {
   font-size: 1rem;
   line-height: 1.25rem;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .eventDay {
@@ -58,10 +58,4 @@
 
 .link {
   color: #58a6ff;
-}
-
-@media screen and (max-width: 500px) {
-  .container {
-    max-width: 85%;
-  }
 }

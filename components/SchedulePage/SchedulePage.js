@@ -2,49 +2,98 @@ import React, { useState } from "react";
 import styles from "./SchedulePage.module.css";
 import { Button } from "@material-ui/core";
 
+const Event = ({
+  day,
+  emoji,
+  description,
+  time,
+  title,
+  location,
+  price,
+  url,
+}) => {
+  const [showDetails, setShowDetails] = useState(false);
+  const handleClick = () => {
+    setShowDetails(!showDetails);
+  };
+
+  return (
+    <div className={styles.event}>
+      <h2 className={styles.eventDay}>{day}</h2>
+      <p className={styles.eventTitle}>
+        {emoji} {time}
+        <span className={styles.divider}>|</span>
+        {title} @ {location} |{" "}
+        <span
+          onClick={() => handleClick()}
+          style={{
+            cursor: "pointer",
+            display: "inline-block",
+            color: "#58a6ff",
+          }}
+        >
+          {showDetails ? "hide" : "show"} class description
+        </span>
+      </p>
+      {showDetails && (
+        <>
+          <p className={styles.eventDescription}>
+            {description}
+            <div className={styles.eventPrice}>{price}</div>
+          </p>
+          <div>
+            <a href={url} target="_blank">
+              <Button
+                variant="outlined"
+                color="primary"
+                style={{
+                  color: "#f0f6fc",
+                  backgroundColor: "#383838",
+                  borderRadius: "20px",
+                }}
+              >
+                Register here
+              </Button>
+            </a>
+          </div>
+        </>
+      )}
+    </div>
+  );
+};
+
 const SchedulePage = () => {
-  
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Classes 🗓️</h1>
-
-      <div className={styles.event}>
-        <h2 className={styles.eventDay}>Friday</h2>
-        <p className={styles.eventTitle}>
-          🧗‍♂️ 7:30-8:30AM<span className={styles.divider}>/</span>Vinyasa + Hatha Flow
-        </p>
-        <p className={styles.eventTitle}>
-          Location: Freestone Climbing Center, 1200 Shakespeare St, Missoula, MT
-          59802
-        </p>
-        <p className={styles.eventDescription}>
-          “Strength is not rigid. Strength is knowing your center and wrapping
-          yourself around it.” <br />
-          <br />
-          This ashtanga-inspired flow will focus on full-body mobility with special attention paid to the spine, plus balance and core strength. We'll incorporate
-          traditional yoga asanas with drills specifically geared toward
-          climbers (hello, shoulders and hip flexors!).
-          <div className={styles.eventPrice}>
-            {" "}
-            Free for Freestone Climbing members. Drop-in rates available.
-          </div>
-        </p>
-        <div>
-          <a href="https://freestoneclimbing.com/calendar/" target="_blank">
-            <Button
-              variant="outlined"
-              color="primary"
-              style={{
-                color: "#f0f6fc",
-                backgroundColor: "#383838",
-                borderRadius: "20px",
-              }}
-            >
-              Register here
-            </Button>
-          </a>
-        </div>
-      </div>
+      <h1 className={styles.title}>Classes</h1>
+      <Event
+        day="Tuesday"
+        title="Vinyasa + Hatha Flow"
+        location="Freestone Climbing Center"
+        description="This hatha-inspired flow will focus on full-body mobility with special
+        attention paid to the spine while we stretch and strengthen our bodies
+        and minds, with the understanding that strength is not rigid. Strength
+        is knowing your center and wrapping yourself around it. We'll
+        incorporate traditional yoga asanas with drills specifically geared
+        toward climbers (hello, shoulders and hip flexors!)."
+        price="Free for Freestone Climbing members. Drop-in gym rates and yoga punchcards available."
+        url="https://freestoneclimbing.com/calendar/"
+        time="5-6PM"
+      />
+      <Event
+        day="Thursday"
+        title="Vinyasa + Hatha Flow"
+        location="Freestone Climbing Center"
+        description="This hatha-inspired flow will focus on full-body mobility with special
+        attention paid to the spine while we stretch and strengthen our bodies
+        and minds, with the understanding that strength is not rigid. Strength
+        is knowing your center and wrapping yourself around it. We'll
+        incorporate traditional yoga asanas with drills specifically geared
+        toward climbers (hello, shoulders and hip flexors!)."
+        price="Free for Freestone Climbing members. Drop-in gym rates and yoga punchcards available."
+        url="https://freestoneclimbing.com/calendar/"
+        time="5-6PM"
+      />
     </div>
   );
 };
