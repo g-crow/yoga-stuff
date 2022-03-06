@@ -68,13 +68,12 @@ const SchedulePage = () => {
       <h1 className={styles.title}>Classes</h1>
       <Event
         day="Tuesday"
-        title="Vinyasa + Hatha Flow"
+        title="Vinyasa Flow"
         location="Freestone Climbing Center"
-        description="This hatha-inspired flow will focus on full-body mobility with special
-        attention paid to the spine while we stretch and strengthen our bodies
-        and minds, with the understanding that strength is not rigid. Strength
-        is knowing your center and wrapping yourself around it. We'll
-        incorporate traditional yoga asanas with drills specifically geared
+        description="This Ashtanga-inspired flow focuses on full-body mobility with special
+        attention paid to the spine. We'll stretch and strengthen major muscle groups, with the understanding that strength is not rigid; strength
+        is knowing your center and wrapping yourself around it. The sequence
+        incorporates traditional yoga asanas along with drills specifically geared
         toward climbers (hello, shoulders and hip flexors!)."
         price="Free for Freestone Climbing members. Drop-in gym rates and yoga punchcards available."
         url="https://freestoneclimbing.com/calendar/"
@@ -82,13 +81,12 @@ const SchedulePage = () => {
       />
       <Event
         day="Thursday"
-        title="Vinyasa + Hatha Flow"
+        title="Vinyasa Flow"
         location="Freestone Climbing Center"
-        description="This hatha-inspired flow will focus on full-body mobility with special
-        attention paid to the spine while we stretch and strengthen our bodies
-        and minds, with the understanding that strength is not rigid. Strength
-        is knowing your center and wrapping yourself around it. We'll
-        incorporate traditional yoga asanas with drills specifically geared
+        description="This Ashtanga-inspired flow focuses on full-body mobility with special
+        attention paid to the spine. We'll stretch and strengthen major muscle groups, with the understanding that strength is not rigid; strength
+        is knowing your center and wrapping yourself around it. The sequence
+        incorporates traditional yoga asanas along with drills specifically geared
         toward climbers (hello, shoulders and hip flexors!)."
         price="Free for Freestone Climbing members. Drop-in gym rates and yoga punchcards available."
         url="https://freestoneclimbing.com/calendar/"
