@@ -1,7 +1,6 @@
 import styles from "./AboutPage.module.css";
 import Image from "next/image";
 import profilePic from "../../public/profile_crop.jpg";
-import headstand from "../../public/headstand_tuffit.jpeg";
 
 const AboutPage = () => {
   return (
@@ -47,12 +46,6 @@ const AboutPage = () => {
           💫
         </div>
       </div>
-      <Image
-        src={headstand}
-        className={styles.imgSecondary}
-        height={983}
-        width={1404}
-      />
     </div>
   );
 };
