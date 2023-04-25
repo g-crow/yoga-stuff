@@ -71,8 +71,8 @@ const SchedulePage = () => {
         className={styles.subtitle}
         style={{ paddingBottom: "10px" }}
       >
-        I'm taking a break from a regular teaching schedule these days. You
-        can still find me subbing in a few Missoula studios, dates listed below:
+        I'm taking a break from a regular teaching schedule these days. You can
+        still find me subbing in a few Missoula spots, upcoming dates listed below:
       </Typography>
       <Event
         day="Thursday, May 4th"
@@ -101,9 +101,9 @@ const SchedulePage = () => {
         className={styles.subtitle}
         style={{ paddingTop: "20px" }}
       >
-        Offerings in the works I'm excited to unveil soon: SUP yoga experiences
-        on Flathead Lake, August 2023; a three-week inversion intensive at several
-        Missoula studios, sometime this fall - stay tuned for details!
+        Offerings I'm excited to unveil: SUP yoga on Flathead Lake, August 2023;
+        a three-week inversion intensive at several Missoula studios, sometime
+        this fall - stay tuned for details!
       </Typography>
     </div>
   );
