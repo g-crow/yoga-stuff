@@ -71,7 +71,7 @@ const SchedulePage = () => {
         className={styles.subtitle}
         style={{ paddingBottom: "10px" }}
       >
-        I'm taking a break from a regular teaching schedule these days. You can
+        I'm taking a break from my regular teaching schedule these days. You can
         still find me subbing in a few Missoula spots, upcoming dates listed below:
       </Typography>
       <Event
