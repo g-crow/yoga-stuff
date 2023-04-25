@@ -78,7 +78,7 @@ const SchedulePage = () => {
         day="Thursday, May 4th"
         title="Yoga"
         location="Inner Harmony Yoga"
-        description="An all-around, balanced flow suitable for all levels. We'll move through a series of postures designed to loosen, strengthen, and balance the body; just the right intensity for a mid-day, mid-week pick-me-up."
+        description="A laid-back flow suitable for all levels. We'll move through a series of postures designed to loosen, strengthen, and balance the body; just the right intensity for a mid-day, mid-week pick-me-up."
         price="$14 drop-in. Memberships available."
         url="http://yogainmissoula.com/Schedule/Schedule.html"
         time="Noon-1:00PM"
