@@ -21,7 +21,7 @@ const AboutPage = () => {
           <a href="https://sistermoonwellness.com/" target="_blank">
             <span className={styles.link}> Sistermoon Wellness</span>
           </a>{" "}
-          in 2021. I’m also a software engineer, writer, doodler, bullet
+          in 2021 and a paddleboard yoga certification shotly afrer. I’m also a software engineer, writer, doodler, bullet
           journaler, and food system nerd. My practice has been informed by many
           teachers of various trades, circus arts, the eightfold path described
           in Patañjali's <i>Yoga Sūtras</i>, the Ashtanga method of K. Pattabhi
